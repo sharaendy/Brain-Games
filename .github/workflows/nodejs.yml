@@ -1,9 +1,18 @@
 name: Node CI
-on: [push]
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
 jobs:
-  Explore-GitHub-Actions:
+  build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x, 17.x]
+
     steps:
-      - name: run linter
-        run: |
-          npx eslint .
+      - run: make lint
