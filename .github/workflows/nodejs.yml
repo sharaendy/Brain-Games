@@ -1,4 +1,4 @@
-name: node CI
+name: Node CI
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: run linter
         run: |
-          make lint
+          npx eslint .
