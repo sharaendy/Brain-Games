@@ -6,3 +6,6 @@ brain-games: #запуск приложения
 
 publish: #публикация тестовая
 					npm publish --dry-run
+
+lint: #проверка линтером airbnb
+					npx eslint .
