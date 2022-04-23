@@ -1,10 +1,8 @@
 name: Node CI
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  - push
+  - pull_request
 
 env:
   CI: true
@@ -19,3 +17,16 @@ jobs:
 
     steps:
       - run: make lint
+
+
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        # Configures the node version used on GitHub-hosted runners
+        # https://github.com/actions/setup-node
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: run linter
+        run: make lint
