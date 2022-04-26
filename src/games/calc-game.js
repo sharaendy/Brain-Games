@@ -22,7 +22,7 @@ function trueAnswerCalc(operand1, operand2, symbol) {
 function calcGameGenerator() {
   const operator = randomOperatorGenerator();
   const operand1 = randomIntegerGenerator(1, 31);
-  const operand2 = randomIntegerGenerator(2, 6);
+  const operand2 = (operator === '*') ? randomIntegerGenerator(2, 6) : randomIntegerGenerator(1, 31);
 
   const question = `${operand1} ${operator} ${operand2}`;
   const trueAnswer = String(trueAnswerCalc(operand1, operand2, operator));
