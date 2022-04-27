@@ -21,7 +21,6 @@
 * `git clone`  https://github.com/sharaendy/frontend-project-lvl1.git
 * `cd frontend-project-lvl1/`
 * `make install`
-* `npm ci`
 * `npm link` *(может понадобиться sudo)*
 
 ## Примеры
