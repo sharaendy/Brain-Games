@@ -21,3 +21,6 @@ brain-gcd: #запуск игры brain-gcd
 
 brain-progression: #запуск игры brain-progression
 					node bin/brain-progression.js
+
+brain-prime: #запуск игры brain-prime
+					node bin/brain-prime.js
