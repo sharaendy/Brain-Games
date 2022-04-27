@@ -1,12 +1,19 @@
 ### Tests and linter status:
 
-### ![Node CI](https://github.com/sharaendy/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)[![Actions Status](https://github.com/sharaendy/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/sharaendy/frontend-project-lvl1/actions)<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+### ![Node CI](https://github.com/sharaendy/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg) [![Actions Status](https://github.com/sharaendy/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/sharaendy/frontend-project-lvl1/actions) <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 # The Brain Games (console games)
 
 ## Описание
 
-Репозиторий содержит пять консольных игр, являющихся моими первыми шагами в JavaScript, созданных для проверки полученных знаний и навыков. Вам нужно правильно ответить на 3 вопроса в раунде в выбранной игре. Чтобы начать, введите имя игры, предварительно установив приложение. 
+Репозиторий содержит пять консольных игр, являющихся моими первыми шагами в JavaScript, созданных для проверки полученных знаний и навыков. Вам нужно правильно ответить на 3 вопроса за раунд в выбранной игре. Чтобы начать, введите имя игры, предварительно установив приложение. 
+
+## Установка
+
+* `git clone`  https://github.com/sharaendy/frontend-project-lvl1.git
+* `cd frontend-project-lvl1/`
+* `make install`
+* `npm link` *(может понадобиться sudo)*
 
 ## Список игр
 
@@ -16,14 +23,8 @@
 4. **brain-prime** - проверить является ли число простым;
 5. **brain-progression** - определить и ввести пропущенное число в прогрессии;
 
-## Установка
 
-* `git clone`  https://github.com/sharaendy/frontend-project-lvl1.git
-* `cd frontend-project-lvl1/`
-* `make install`
-* `npm link` *(может понадобиться sudo)*
-
-## Примеры
+## Демонстрация
 
 ##### brain-even
 

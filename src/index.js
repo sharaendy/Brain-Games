@@ -19,7 +19,7 @@ export default function engine(gameRules, gameGenerator) {
       console.log(
         `${userAnswer} is wrong answer ;(. Correct answer was ${gameData[1]}.`,
       );
-      console.log(`Let's try again, ${userName}`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
   }
