@@ -1,5 +1,5 @@
-import randomIntegerGenerator from '../randomIntegerGenerator.js';
-import arrayGenerator from '../arrayGenerator.js';
+import randomIntegerGenerator from '../modules/randomIntegerGenerator.js';
+import arrayGenerator from '../modules/arrayGenerator.js';
 import engine from '../index.js';
 
 const gameRules = 'What number is missing in the progression?';

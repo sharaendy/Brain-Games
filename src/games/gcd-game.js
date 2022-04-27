@@ -1,6 +1,6 @@
-import randomIntegerGenerator from '../randomIntegerGenerator.js';
-import greatestDivisor from '../greatestDivisor.js';
-import getIntersectionOfArrays from '../getIntersectionOfArrays.js';
+import randomIntegerGenerator from '../modules/randomIntegerGenerator.js';
+import greatestDivisor from '../modules/greatestDivisor.js';
+import getIntersectionOfArrays from '../modules/getIntersectionOfArrays.js';
 import engine from '../index.js';
 
 const gameRules = 'Find the greatest common divisor of given numbers.';
@@ -12,7 +12,7 @@ function gcdGameGenerator() {
   const value2Divisors = greatestDivisor(value2);
   const commonDivisors = getIntersectionOfArrays(
     value1Divisors,
-    value2Divisors
+    value2Divisors,
   );
   const question = `${value1} ${value2}`;
   const trueAnswer = String(commonDivisors.pop());

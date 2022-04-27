@@ -1,5 +1,5 @@
-import randomIntegerGenerator from '../randomIntegerGenerator.js';
-import randomOperatorGenerator from '../randomOperatorGenerator.js';
+import randomIntegerGenerator from '../modules/randomIntegerGenerator.js';
+import randomOperatorGenerator from '../modules/randomOperatorGenerator.js';
 import engine from '../index.js';
 
 const gameRules = 'What is the result of the expression?';
