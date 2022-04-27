@@ -26,29 +26,29 @@
 
 ## Примеры
 
+##### brain-even
+
+[![asciicast](https://asciinema.org/a/kU6mvHQ5IBKw5D7gjJw9Ow3Iw.svg)](https://asciinema.org/a/kU6mvHQ5IBKw5D7gjJw9Ow3Iw)
+
 ##### brain-calc
 
-[![asciicast](https://asciinema.org/a/uGUcH9ec9zay2ZHAErbh2Zt4M.svg)](https://asciinema.org/a/uGUcH9ec9zay2ZHAErbh2Zt4M)
-
-##### brain-gcd
-
-[![asciicast](https://asciinema.org/a/C7CmszGGqxvOss3nhRsovmt9c.svg)](https://asciinema.org/a/C7CmszGGqxvOss3nhRsovmt9c)
+[![asciicast](https://asciinema.org/a/QVk910UUkVGvQXnaAHSKpWmMC.svg)](https://asciinema.org/a/QVk910UUkVGvQXnaAHSKpWmMC)
 
 ##### brain-progression
 
-[![asciicast](https://asciinema.org/a/t6EoJNmKrqxkZJWslgztE87rK.svg)](https://asciinema.org/a/t6EoJNmKrqxkZJWslgztE87rK)
+[![asciicast](https://asciinema.org/a/6uOsodAINFs6BvRXsvJFbDLyB.svg)](https://asciinema.org/a/6uOsodAINFs6BvRXsvJFbDLyB)
+
+##### brain-gcd
+
+[![asciicast](https://asciinema.org/a/VearLZudAxH5l214EFanIjdTE.svg)](https://asciinema.org/a/VearLZudAxH5l214EFanIjdTE)
 
 ##### brain-prime
 
-[![asciicast](https://asciinema.org/a/tsrRT5lCFIJFY4LOQFHRj8bfL.svg)](https://asciinema.org/a/tsrRT5lCFIJFY4LOQFHRj8bfL)
-
-##### brain-even
-
-[![asciicast](https://asciinema.org/a/oo1EpLoFbMgmOgGnWMG40N9jI.svg)](https://asciinema.org/a/oo1EpLoFbMgmOgGnWMG40N9jI)
-
-
+##### [![asciicast](https://asciinema.org/a/LZMBi4Sw8lEjYCCmFv4hT34RY.svg)](https://asciinema.org/a/LZMBi4Sw8lEjYCCmFv4hT34RY)
 
 ## Автор
 
-Шараевский Андрей (sharaendy) aash7133@gmail.com
+Шараевский Андрей (sharaendy) 
+
+aash7133@gmail.com
 
