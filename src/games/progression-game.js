@@ -9,7 +9,8 @@ function progressionGameGenerator() {
   const index = randomIntegerGenerator(2, 7);
   const trueAnswer = String(sequence[index]);
   sequence[index] = '..';
-  const question = String(sequence);
+  const arrToString = sequence.join(' ');
+  const question = arrToString;
   return [question, trueAnswer];
 }
 
