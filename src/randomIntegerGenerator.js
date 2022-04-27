@@ -1,3 +1,4 @@
+// Возвращает случайное целое число в заданном диапазоне:
 function randomIntegerGenerator(min, max) {
   const minBorder = Math.ceil(min);
   const maxBorder = Math.floor(max);

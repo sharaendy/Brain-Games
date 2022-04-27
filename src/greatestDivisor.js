@@ -1,3 +1,4 @@
+// Возвращает наибольший делитель числа num:
 export default function greatesDivisor(num) {
   const divisor = [];
   for (let i = 1; i <= num; i += 1) {

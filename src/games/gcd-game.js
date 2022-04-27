@@ -10,7 +10,10 @@ function gcdGameGenerator() {
   const value2 = randomIntegerGenerator(1, 21) * 2;
   const value1Divisors = greatestDivisor(value1);
   const value2Divisors = greatestDivisor(value2);
-  const commonDivisors = getIntersectionOfArrays(value1Divisors, value2Divisors);
+  const commonDivisors = getIntersectionOfArrays(
+    value1Divisors,
+    value2Divisors
+  );
   const question = `${value1} ${value2}`;
   const trueAnswer = String(commonDivisors.pop());
   return [question, trueAnswer];

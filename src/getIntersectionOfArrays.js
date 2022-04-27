@@ -1,3 +1,4 @@
+// Возвращает массив с общими (пересечение множеств) элементами:
 export default function getIntersectionOfArrays(arr1, arr2) {
   const size1 = arr1.length;
   const size2 = arr2.length;

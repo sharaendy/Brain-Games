@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
 
+// Движок приложения
 export default function engine(gameRules, gameGenerator) {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');

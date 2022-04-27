@@ -2,7 +2,8 @@ import randomIntegerGenerator from '../randomIntegerGenerator.js';
 import greatesDivisor from '../greatestDivisor.js';
 import engine from '../index.js';
 
-const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameRules =
+  'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function primeGameGenerator() {
   const question = randomIntegerGenerator(1, 106);
