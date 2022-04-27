@@ -23,5 +23,5 @@ export default function engine(gameRules, gameGenerator) {
       return;
     }
   }
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
 }
