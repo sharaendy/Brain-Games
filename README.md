@@ -4,27 +4,27 @@
 
 # The Brain Games (console games)
 
-## Описание
+## Description
 
-Репозиторий содержит пять консольных игр, являющихся моими первыми шагами в JavaScript, созданных для проверки полученных знаний и навыков. Вам нужно правильно ответить на 3 вопроса за раунд в выбранной игре. Чтобы начать, введите имя игры, предварительно установив приложение. 
+The repository contains five console games, which are my first steps in JavaScript, designed to test my knowledge and skills. You need to correctly answer three questions per round in the selected game. To get started, enter the name of the game by pre-installing the application.
 
-## Установка
+## Setup
 
 * `git clone`  https://github.com/sharaendy/frontend-project-lvl1.git
 * `cd frontend-project-lvl1/`
 * `make install`
-* `npm link` *(может понадобиться sudo)*
+* `npm link` *(might need sudo)*
 
-## Список игр
+## Game list
 
-1. **brain-even** - проверка числа на чётность;
-2. **brain-calc** - вычислить простое выражение;
-3. **brain-gcd** - найти наибольший делитель двух чисел;
-4. **brain-prime** - проверить является ли число простым;
-5. **brain-progression** - определить и ввести пропущенное число в прогрессии;
+1. **brain-even** - check for even parity;
+2. **brain-calc** - calculate a simple mathematical expression;
+3. **brain-gcd** - find the greatest divisor of two numbers;
+4. **brain-prime** - check if the number is prime;
+5. **brain-progression** - identify and enter the missing number in the progression;
 
 
-## Демонстрация
+## Demonstration
 
 ##### brain-even
 
@@ -46,7 +46,7 @@
 
 ##### [![asciicast](https://asciinema.org/a/LZMBi4Sw8lEjYCCmFv4hT34RY.svg)](https://asciinema.org/a/LZMBi4Sw8lEjYCCmFv4hT34RY)
 
-## Автор
+## Authored by
 
 Шараевский Андрей (sharaendy) 
 
